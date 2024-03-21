@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping List</title>
+    <script
+      src="https://kit.fontawesome.com/bf9d4bbbeb.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="background-container">
+      <div class="widget-container">
+        <header class="masthead">
+          <div class="icon-container">
+            <i class="fas fa-shopping-basket"></i>
+          </div>
+          <h1>BUY GROCERIES</h1>
+          <p class="tagline">What do you need to buy today?</p>
+        </header>
+        <main class="main-content">
+          <input type="text" id="itemInput" placeholder="Enter item..." />
+          <button onclick="addItem()">Add Item</button>
+          <ul id="itemList"></ul>
+          <p id="errorMessage" class="error-message"></p>
+        </main>
+        <footer class="footer">
+          <a href="#" class="social-link"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="#" class="social-link"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a href="#" class="social-link"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </footer>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
